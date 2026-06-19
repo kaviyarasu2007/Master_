@@ -19,7 +19,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-OPENROUTER_KEY = "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"
+OPENROUTER_KEY = "YOUR-API-KEY"
 MODEL_ID = "openai/gpt-oss-120b:free"
 SKILLS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../skills"))
 
